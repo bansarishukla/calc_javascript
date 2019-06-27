@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.button {
+  width: 75px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  padding: 20px 0 0 0;
+}
+.textview {
+  width: 100%;
+  height: 50px;
+  background-color: gainsboro;
+  margin: 0 0 15px 0;;
+  font-size: 25px;
+  border: none;
+  text-align: center;
+  /* background-color: transparent; */
+}
+.main {
+  width: 327px;
+  height: 350px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%)translateY(-50%);
+  border: 1px solid black;
+  padding: 80px 0 0 0;
+}
+.font_color {
+  color: gray;
+  font-weight: bold;
+}
+.font_color1 {
+  color: black;
+  font-weight: bold;
+}
+.font_color2 {
+  color: orangered;
+  font-weight: bold;
+}
+.number:hover {
+  background-color: rosybrown;
+}
+.sym:hover {
+  background-color: violet;
+}
